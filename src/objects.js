@@ -22,3 +22,9 @@ class Figure {
   }
 }
 
+const whiteQueen = new Figure('white', 'queen', 0, 0, 'https://chess.com/whitequeen.image');
+
+console.table(whiteQueen);
+console.log(whiteQueen.getPosition());
+whiteQueen.setPosition(1, 1);
+console.log(whiteQueen.getPosition());
