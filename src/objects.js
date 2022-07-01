@@ -28,3 +28,4 @@ console.table(whiteQueen);
 console.log(whiteQueen.getPosition());
 whiteQueen.setPosition(1, 1);
 console.log(whiteQueen.getPosition());
+// try 3
